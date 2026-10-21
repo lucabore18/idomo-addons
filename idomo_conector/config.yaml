@@ -1,0 +1,26 @@
+# Ficha del add-on de Home Assistant (D31). Fuente de la ficha pública: publicar-ficha.sh la copia a
+# lucabore18/idomo-addons (D35).
+name: Idomo
+version: "0.1.0"
+slug: idomo_conector
+description: Conecta la casa con Idomo. Solo ejecuta una lista cerrada de herramientas y no abre puertos.
+url: https://github.com/lucabore18/idomo-addons
+# Imagen ya compilada (D35), una por arquitectura. La publica .github/workflows/conector-imagen.yml.
+image: ghcr.io/lucabore18/idomo-conector-{arch}
+arch:
+  - aarch64
+  - amd64
+init: false
+startup: application
+boot: auto
+# Acceso a la API de Home Assistant con el token del Supervisor, que no sale de la casa.
+homeassistant_api: true
+# Nada más: sin API del Supervisor, sin red del host, sin acceso a archivos de la casa.
+hassio_api: false
+host_network: false
+options:
+  gateway: ""
+  casa_id: ""
+schema:
+  gateway: match(^wss?://.+)
+  casa_id: match(^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$)
