@@ -1,7 +1,7 @@
 # Ficha del add-on de Home Assistant (D31). Fuente de la ficha pública: publicar-ficha.sh la copia a
 # lucabore18/idomo-addons (D35).
 name: Idomo
-version: "0.1.0"
+version: "0.2.0"
 slug: idomo_conector
 description: Conecta la casa con Idomo. Solo ejecuta una lista cerrada de herramientas y no abre puertos.
 url: https://github.com/lucabore18/idomo-addons
