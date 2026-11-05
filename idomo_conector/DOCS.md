@@ -5,9 +5,9 @@ Conecta esta casa con Idomo para que el panel técnico y la app puedan consultar
 ## Qué hace y qué no
 
 - **Abre una conexión hacia Idomo.** No abre puertos en tu red.
-- **Solo hace lo que está en su lista:** consultar el estado de la casa, poner un equipo en un ambiente, ocultar entidades, deshabilitar un dispositivo repetido y deshacer esos cambios.
+- **Solo hace lo que está en su lista:** consultar el estado de la casa, poner un equipo en un ambiente, ocultar entidades, deshabilitar un dispositivo repetido, deshacer esos cambios, prender y apagar lo que la app permite, correr las escenas Me voy, Buenas noches y Peli de Idomo, y abrir el video en vivo de una cámara para quien tenga permiso.
 - **No toca nada de seguridad:** no oculta ni deshabilita cerraduras, alarma, cámaras ni sirenas. No abre ni desarma nada.
-- **No saca de la casa** video, audio, cámaras, ubicaciones ni coordenadas.
+- **No saca de la casa** video, audio, imágenes, ubicaciones ni coordenadas. Para ver una cámara en vivo, solo pasa la negociación de la conexión: el video va directo de la cámara, o del servicio de la marca, al teléfono.
 - El token de Home Assistant que usa es el del Supervisor, y nunca sale de la casa.
 
 Si el add-on se detiene o se desinstala, la casa sigue funcionando exactamente igual.
