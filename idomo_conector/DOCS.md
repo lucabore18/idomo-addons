@@ -5,7 +5,7 @@ Conecta esta casa con Idomo para que el panel técnico y la app puedan consultar
 ## Qué hace y qué no
 
 - **Abre una conexión hacia Idomo.** No abre puertos en tu red.
-- **Solo hace lo que está en su lista:** consultar el estado de la casa, poner un equipo en un ambiente, cambiarle el nombre a un equipo, a una tecla o a un ambiente, crear un ambiente, ocultar entidades, deshabilitar un dispositivo repetido, deshacer esos cambios, prender y apagar lo que la app permite, correr las escenas Me voy, Buenas noches y Peli de Idomo, y abrir el video en vivo de una cámara para quien tenga permiso.
+- **Solo hace lo que está en su lista:** consultar el estado de la casa, poner un equipo o una de sus luces en un ambiente (como "Área" en los ajustes de cada entidad), cambiarle el nombre a un equipo, a una tecla o a un ambiente, crear un ambiente, ocultar entidades, deshabilitar un dispositivo repetido, deshacer esos cambios, prender y apagar lo que la app permite, correr las escenas Me voy, Buenas noches y Peli de Idomo, y abrir el video en vivo de una cámara para quien tenga permiso.
 - **Los nombres quedan en Home Assistant.** Cambiar un nombre o un ambiente nunca cambia el identificador de una entidad, así que tus automatizaciones siguen andando.
 - **Mientras alguien tiene la app abierta**, le avisa cada cambio de la casa apenas pasa (una luz prendida desde la pared, una puerta que se abre). Manda lo mismo que la consulta del estado, nada más, y deja de mandar cuando nadie mira.
 - **No toca nada de seguridad:** no oculta ni deshabilita cerraduras, alarma, cámaras ni sirenas; a esos equipos solo les puede cambiar el nombre o el ambiente. No abre ni desarma nada.
